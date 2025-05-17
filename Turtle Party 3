@@ -1,0 +1,12 @@
+def polygon(size):
+ for i in range(6):
+   turtle.forward(size)
+   turtle.left(60)
+   
+polygon(100)
+back(50)
+polygon(50)
+back(25)
+polygon(25)
+back(25)
+polygon(15)
