@@ -1,0 +1,91 @@
+#Turtle party advanced
+#print( "Challenge #", 2 + 3)
+#JOC first program, happy accident
+import turtle
+#size = 100
+#turtle.color("teal")
+#turtle.forward(200)
+#turtle.right(120)
+#turtle.forward(200)
+#turtle.right(120)
+#turtle.forward(200)
+#turtle.right(120)
+#turtle.color("magenta")
+#turtle.forward(200)
+#turtle.left(120)
+#turtle.forward(200)
+#turtle.left(120)
+#turtle.forward(200)
+#turtle.left(120)
+#turtle.end_fill)()
+#turtle.color("blue")
+#turtle.bk(100)
+#turtle.forward(size)
+#turtle.right(150)
+#turtle.forward(size)
+#turtle.right(150)
+#turtle.forward(size)
+#turtle.right(150)
+#turtle.end_fill()
+#turtle.color("yellow")
+#turtle.forward(150)
+#turtle.left(150)
+#turtle.forward(50)
+
+import turtle
+size = 100
+turtle.color("teal")
+#for i in range(3):
+ #turtle.color("teal")
+# turtle.forward(size)
+# turtle.right(120)
+#for i in range(3):
+ # turtle.color("red")
+ # turtle.forward(size)
+ # turtle.left(120)
+ #for i in range(3):
+  #turtle.color("yellow")
+  #turtle.forward(size)
+  #turtle.left(120)
+  
+  #Three triangles in different sizes
+#def back(len):
+#   turtle.penup()
+#   turtle.backward(len)
+#   turtle.pendown()
+
+#def triangle(size):
+# for i in range(3):
+#   turtle.forward(size)
+#   turtle.left(120)
+   
+#turtle.left
+#triangle(100)
+#back(75)
+#triangle(50)
+#back(50)
+#triangle(25)
+# Draw 4 squares in Teal   
+def back(len):
+   turtle.penup()
+   turtle.backward(len)
+   turtle.pendown()
+
+def polygon(size):
+ for i in range(6):
+   turtle.forward(size)
+   turtle.left(60)
+   
+polygon(100)
+back(50)
+polygon(50)
+back(25)
+polygon(25)
+back(25)
+polygon(15)
+
+color=input("What is your favorite color?"):
+  print("Cool! My favorite color is_light_",color,"!")
+  
+
+
